@@ -1,0 +1,26 @@
+syntax: glob
+# need these for whatever at the root
+.project
+.classpath
+.settings/**
+target/**
+.factorypath
+bin/**
+src/main/java/META-INF/MANIFEST.MF
+src/main/resources/META-INF/MANIFEST.MF
+
+# this should cover any subprojects
+**/.project
+**/.classpath
+**/.settings/**
+**/target/**
+**/.factorypath
+**/WEB-INF/classes/**
+**/WebContent/META-INF/maven/**
+**/bin/**
+**/WebContent/WEB-INF/lib/**
+**/src/main/java/META-INF/MANIFEST.MF
+**/src/main/resources/META-INF/MANIFEST.MF
+**/WebContent/WEB-INF/classes/*
+/.idea
+*.iml
